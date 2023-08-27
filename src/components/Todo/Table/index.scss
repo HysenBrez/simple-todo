@@ -1,0 +1,35 @@
+table {
+  th,
+  td {
+    vertical-align: middle;
+  }
+  
+  .editable__input{
+    margin-left: 0px;
+    padding: 0;
+    border-radius: 0;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+  
+    &:focus {
+      outline: none;
+      border-color: #2684FF;
+      background-color: transparent;
+    }
+  }
+
+  .trash-icon {
+    fill: #ccc;
+    cursor: pointer;
+    transition: fill 0.3s;
+
+    &:hover {
+      fill: #ff0000;
+    }
+  }
+}

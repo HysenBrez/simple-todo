@@ -1,0 +1,22 @@
+/* Reset some default styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set up a base font and background */
+body {
+  font-family: 'Montserrat', 'Ubuntu', sans-serif;
+  background: #fff;
+  margin: 0; /* Reset default margin */
+}
+
+/* Set full height for the root element */
+#root {
+  height: 100vh; /* Ensure the root takes at least the viewport height */
+  display: flex;
+  flex-direction: column;
+}
